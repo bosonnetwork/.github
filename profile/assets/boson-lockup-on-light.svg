@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Boson primary lockup (Title Case) — use on light backgrounds. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="48" viewBox="0 0 280 48" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Boson Network</title>
+  <desc id="desc">Boson Network horizontal lockup on light background.</desc>
+
+  <defs>
+    <linearGradient id="boson-core-lockup-light" x1="12.6" y1="12.6" x2="19.4" y2="19.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00B4D8"/>
+      <stop offset="1" stop-color="#00779E"/>
+    </linearGradient>
+    <linearGradient id="boson-node-lockup-light" x1="4.4" y1="13.9" x2="27.6" y2="18.1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="boson-halo-lockup-light" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+
+
+  <g transform="translate(6, 6) scale(1.125)">
+    <g stroke="#0369A1" stroke-width="1">
+      <circle cx="16" cy="16" r="14.5" stroke-opacity=".9"/>
+      <ellipse cx="16" cy="16" rx="14.5" ry="6.2" stroke-opacity=".45"/>
+    </g>
+    <path d="M8.8 16h4.8m4.8 0h4.8" stroke="#0369A1" stroke-width="1.3" stroke-linecap="round"/>
+    <g filter="url(#boson-halo-lockup-light)" opacity=".3">
+      <circle cx="16" cy="16" r="4.65" fill="#0E9DB2"/>
+      <circle cx="6.5" cy="16" r="3.2" fill="#6D5AE0"/>
+      <circle cx="25.5" cy="16" r="3.2" fill="#6D5AE0"/>
+    </g>
+    <circle cx="16" cy="16" r="3.4" fill="url(#boson-core-lockup-light)"/>
+    <circle cx="6.5" cy="16" r="2.1" fill="url(#boson-node-lockup-light)"/>
+    <circle cx="25.5" cy="16" r="2.1" fill="url(#boson-node-lockup-light)"/>
+  </g>
+
+  <text x="56" y="30.5" style="font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;font-weight:700;font-size:21px;letter-spacing:-0.02em;fill:#0F172A">Boson <tspan style="font-weight:400;fill:#0369A1">Network</tspan></text>
+</svg>

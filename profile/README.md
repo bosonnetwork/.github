@@ -8,6 +8,8 @@
 
 <p align="center"><b>A decentralized network where your identity is a key, not an account.</b></p>
 
+<p align="center"><a href="https://bosonnetwork.io">https://bosonnetwork.io</a></p>
+
 Boson is a peer-to-peer network built on a hardened Kademlia DHT. Every user, device and
 node is identified by its own Ed25519 key pair - no central registry, no certificate
 authority, no password database. On top of the DHT, federated super nodes run Layer-2
@@ -31,6 +33,7 @@ services: messaging, object storage, a web gateway and an active proxy.
 All public repositories are listed below.
 
 <p align="center">
+  <a href="https://bosonnetwork.io">Website</a> |
   <a href="https://docs.bosonnetwork.io">Docs</a> |
   <a href="https://docs.bosonnetwork.io/contribute">Contribute</a> |
   MIT License
